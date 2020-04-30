@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/displaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_horizontal"
+        android:text="Lets Play!"
+        android:textSize="56sp" />
+
+    <LinearLayout
+     android:layout_height="0dp"
+     android:layout_width="match_parent"
+     android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:textSize="42sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn2"
+            android:textSize="42sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn3"
+            android:textSize="42sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn4"
+            android:layout_weight="1"
+            android:textSize="42sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn5"
+            android:textSize="42sp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn6"
+            android:textSize="42sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn7"
+                android:textSize="42sp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn8"
+                android:layout_weight="1"
+                android:textSize="42sp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn9"
+                android:textSize="42sp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayText"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text="I am winner"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:text="Reset"
+        android:layout_marginBottom="1dp"
+        android:textColor="#f9f9f9"
+        android:textSize="44sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawText"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text=" Match is draw"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>
+
